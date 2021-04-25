@@ -21,5 +21,9 @@
 @media (max-width: 576px) {
     .copyright_bar{
        flex-direction: column-reverse;
+       margin-top: 100px;
+       align-items: center;
+       margin-right: 10px;
+    font-size: 25px;
     }
 }
