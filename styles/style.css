@@ -4,3 +4,16 @@
 .cba:hover {
 	color: #db5246;
 }
+
+.copyright_bar{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon {
+    color: #fff;
+    margin-left:10px;
+}
+
+.social-icon:hover {
+    color: #db5246;
+}
