@@ -17,3 +17,9 @@
 .social-icon:hover {
     color: #db5246;
 }
+
+@media (max-width: 576px) {
+    .copyright_bar{
+       flex-direction: column-reverse;
+    }
+}
