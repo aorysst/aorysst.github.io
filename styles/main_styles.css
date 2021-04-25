@@ -1438,3 +1438,9 @@ section
 	color: #6d6d6d;
 	line-height: 67px;
 }
+.cba {
+	color: #fff;
+}
+.cba:hover {
+	color: #db5246;
+}
