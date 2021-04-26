@@ -7,7 +7,7 @@ $(document).ready(function() {
     $(window).scroll(function() {
       var topPos = $(this).scrollTop();
       // if user scrolls down - show scroll to top button
-      if (topPos > 200) {
+      if (topPos > 250) {
         $(scrollTop).css("opacity", "1");
       } else {
         $(scrollTop).css("opacity", "0");

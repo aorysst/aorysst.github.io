@@ -134,37 +134,37 @@ $(document).ready(function()
 			var playlist = 
 			[
 				{
-					title:"Better Days",
+					title:"Facebook",
 					artist:"Bensound",
 					mp3:"files/bensound-betterdays.mp3",
 					duration:"2.33"
 				},
 				{
-					title:"Dubstep",
+					title:"Instagram",
 					artist:"Bensound",
 					mp3:"files/bensound-dubstep.mp3",
 					duration:"2.04"
 				},
 				{
-					title:"Sunny",
+					title:"Behance",
 					artist:"Bensound",
 					mp3:"files/bensound-sunny.mp3",
 					duration:"2.20"
 				},
 				{
-					title:"Better Days",
+					title:"Dribbble",
 					artist:"Bensound",
 					mp3:"files/bensound-betterdays.mp3",
 					duration:"2.33"
 				},
 				{
-					title:"Dubstep",
+					title:"DeviantArt",
 					artist:"Bensound",
 					mp3:"files/bensound-dubstep.mp3",
 					duration:"2.04"
 				},
 				{
-					title:"Sunny",
+					title:"LinkedIn",
 					artist:"Bensound",
 					mp3:"files/bensound-sunny.mp3",
 					duration:"2.20"
