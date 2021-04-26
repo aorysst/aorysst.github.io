@@ -219,3 +219,22 @@ html {
     padding-left: 15px;
     padding-right: 15px;
 }}
+
+.download-resume {
+  font-size: 18px !important;
+	color: #333232 !important;
+	text-transform: none !important;
+}
+
+.dw-res {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #de4f32;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  outline: none !important;
+  color: #fff;
+}
