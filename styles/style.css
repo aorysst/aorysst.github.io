@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .cba {
 	color: #fff;
 }
@@ -192,3 +195,16 @@
   .circular-menu.circular-menu-left.active .menu-item:nth-child(4) {
     transform: translate3d(7em,1em,0);
   }
+  /* #circularMenu {
+    visibility:hidden;
+    position:fixed;
+    transition: ease-in .3s;
+} */
+
+.scrollTop {
+  opacity: 0;
+  transition: all 0.4s ease-in-out 0s;
+}
+.menu_nav ul li .ra {
+  color:#DE4F32 !important;
+}

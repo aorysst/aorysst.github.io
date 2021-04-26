@@ -497,11 +497,11 @@ section
 	transform: translateY(-50%);
 	right: -300px;
 	width: 300px;
-	-webkit-transition: all 1000ms 600ms ease;
-	-moz-transition: all 1000ms 600ms ease;
-	-ms-transition: all 1000ms 600ms ease;
-	-o-transition: all 1000ms 600ms ease;
-	transition: all 1000ms 600ms ease;
+	-webkit-transition: all 500ms 300ms ease;;
+	-moz-transition: all 500ms 300ms ease;;
+	-ms-transition: all 500ms 300ms ease;;
+	-o-transition: all 500ms 300ms ease;;
+	transition: all 500ms 300ms ease;
 }
 .menu.active .menu_container
 {
