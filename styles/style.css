@@ -411,9 +411,103 @@ x
   }
   
 }
-.jxPOhn a {
-  background-color: red !important;
+
+#app {
+  position: fixed;
+  right: 150px;
+  bottom: 50px;
+  width: 0;
+  height: 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
-#gb-widget-7352 > * { 
-  color: transparent im !important;
+#app nav {
+  position: relative;
+  width: 100%;
+  height: 50px;
+}
+#app nav .action .btn.share {
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f56263;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+/* #app nav .action .btn.share::before, #app nav .action .btn.share::after {
+  position: absolute;
+  content: "";
+  width: 80%;
+  height: 80%;
+  background: rgba(252, 21, 22, 0.35);
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  transform: scale(2);
+  opacity: 0;
+  transition: all 200ms cubic-bezier(0.32, 0.4, 0.55, 1.27);
+  pointer-events: none;
+} */
+/* #app nav .action .btn.share::after {
+  transition: all 450ms cubic-bezier(0.32, 0.4, 0.55, 1.27);
+}
+#app nav .action .btn.share:active::before, #app nav .action .btn.share:active::after {
+  transform: scale(0.95);
+  opacity: 0.85;
+} */
+#app nav .action .actions {
+  position: absolute;
+  right: -25px;
+  top: -25px;
+  height: 50px;
+  width: 50px;
+  background: #fc6666;
+  border-radius: 50px;
+  z-index: 1;
+  transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.175);
+  box-shadow: 0 2px 6px rgba(252, 21, 22, 0.45);
+  overflow: hidden;
+  pointer-events: none;
+}
+#app nav .action .actions.active {
+  width: 240px;
+  display: flex;
+    flex-direction: row;
+}
+
+
+
+button:active .icon {
+  transform: scale(0.8) translate(-58%, -58%);
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.sa {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+.sa:hover {
+  background-color: red;
 }

@@ -15,3 +15,18 @@ $(document).ready(function() {
     }); // scroll END
   
   }); // ready() END
+
+
+  // btn
+  var btn = document.querySelector('.btn.share');
+var actions = document.querySelector('.actions')
+
+btn.addEventListener('click', () => {
+	if(actions.classList.contains('active')){
+		btn.classList.remove('active')
+		actions.classList.remove('active')
+	}else{
+		btn.classList.add('active')
+		actions.classList.add('active')
+	}
+})
