@@ -21,7 +21,7 @@
 </head>
 <!-- <script src="//code.jivosite.com/widget/GrCiXrXnlf" async></script> -->
 <!-- Chatra {literal} -->
-<script>
+<!-- <script>
     (function(d, w, c) {
         w.ChatraID = 'nmmTGS6BiNNic8MRf';
         var s = d.createElement('script');
@@ -32,7 +32,7 @@
         s.src = 'https://call.chatra.io/chatra.js';
         if (d.head) d.head.appendChild(s);
     })(document, window, 'Chatra');
-</script>
+</script> -->
 <!-- /Chatra {/literal} -->
 <!--Start of Tawk.to Script-->
 <!-- <script type="text/javascript">
@@ -525,62 +525,55 @@
 				</span>
 			</div>
 		</footer>
-		<!-- <div id="circularMenu" class="circular-menu scrollTop">
-
-			<a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
-			  <i class="fa fa-comments"></i>
-			</a>
-		  
-			<menu class="items-wrapper">
-			  <a target="_blank" href="https://wa.me/381612684000" class="menu-item"><i class="fab fa-whatsapp"></i></a>
-			  <a target="_blank" href="viber://chat/?number=%2B381612684000" class="menu-item"><i class="fab fa-viber"></i></a>
-			  <a target="_blank" href="https://t.me/aorysst" class="menu-item"><i class="fab fa-telegram-plane"></i></a>
-			  <a target="_blank" href="https://www.messenger.com/t/100064708336037/" class="menu-item"><i class="fab fa-facebook-messenger"></i></a>
-			</menu>
-		  
-		  </div> -->
 		
-			
-			<!-- <div class="base-wrapper">
-			  <div class="base">
-				<i class="fas fa-link"></i>
-			  </div>
-			  <a href="https://github.com/saranshbarua" target="_blank">
-				<div class="hidden-childs hc-1">
-				  <i class="fab fa-github"></i>
-				</div>
-			  </a>
-			  
-			  <a href="https://twitter.com/_saranshbarua" target="_blank">
-				<div class="hidden-childs hc-2">
-				  <i class="fab fa-twitter"></i>
-				</div>
-			  </a>
-			  
-			  <a href="https://codepen.io/saranshbarua/" target="_blank">
-				<div class="hidden-childs hc-3">
-				  <i class="fab fa-codepen"></i>
-				</div>
-			  </a>
-			  
-			  <a href="https://www.linkedin.com/in/saransh-barua-1571b4b8/" target="_blank">
-				<div class="hidden-childs hc-4">
-				  <i class="fab fa-linkedin-in"></i>
-				</div>
-			  </a>
-			</div> -->
-			<div id="app">
+			<!-- <div id="app">
 				<nav>
 					<div class="action">
-						<button class="btn share">
-						</button>
+						<button class="btn share">A</button>
 						<div class="actions">
 							<a href="#" class="sa">1</a>
 							<a href="#" class="sa">2</a>
 						</div>
 					</div>
 				</nav>
-			</div>
+			</div> -->
+
+			<nav class="menua">
+				<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+				<label class="menu-open-button" for="menu-open">
+				  <span class="hamburgera hamburger-1"></span>
+				  <span class="hamburgera hamburger-2"></span>
+				  <span class="hamburgera hamburger-3"></span>
+				</label>
+				
+				<a href="#" class="menua-item"> <i class="fa fa-bar-chart"></i> </a>
+				<a href="#" class="menua-item"> <i class="fa fa-plus"></i> </a>
+				<a href="#" class="menua-item"> <i class="fa fa-heart"></i> </a>
+				<a href="#" class="menua-item"> <i class="fa fa-envelope"></i> </a>
+				
+			  </nav>
+			  
+			  
+			  <!-- filters -->
+			  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+				  <defs>
+					<filter id="shadowed-goo">
+						
+						<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+						<feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+						<feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+						<feOffset in="shadow" dx="1" dy="1" result="shadow" />
+						<feComposite in2="shadow" in="goo" result="goo" />
+						<feComposite in2="goo" in="SourceGraphic" result="mix" />
+					</filter>
+					<filter id="goo">
+						<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+						<feComposite in2="goo" in="SourceGraphic" result="mix" />
+					</filter>
+				  </defs>
+			  </svg>
 		
 	</div>
 
