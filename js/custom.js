@@ -128,46 +128,46 @@ $(document).ready(function()
 
 	function initAlbumPlayer()
 	{
-		if($('#jplayer_1').length)
+		if($('#jplayer_1-disable').length)
 		{
 			// Duration has to be entered manually
 			var playlist = 
 			[
 				{
-					title:"Facebook",
-					artist:"Bensound",
+					title: "Facebook",
+					artist:"aorysst",
 					mp3:"files/bensound-betterdays.mp3",
-					duration:"2.33"
+					duration:""
 				},
 				{
-					title:"Instagram",
-					artist:"Bensound",
+					title:"2 Instagram",
+					artist:"aorysst",
 					mp3:"files/bensound-dubstep.mp3",
-					duration:"2.04"
+					duration:""
 				},
 				{
 					title:"Behance",
-					artist:"Bensound",
+					artist:"aorysst",
 					mp3:"files/bensound-sunny.mp3",
-					duration:"2.20"
+					duration:""
 				},
 				{
 					title:"Dribbble",
-					artist:"Bensound",
+					artist:"aorysst",
 					mp3:"files/bensound-betterdays.mp3",
-					duration:"2.33"
+					duration:""
 				},
 				{
 					title:"DeviantArt",
-					artist:"Bensound",
+					artist:"aorysst",
 					mp3:"files/bensound-dubstep.mp3",
-					duration:"2.04"
+					duration:""
 				},
 				{
 					title:"LinkedIn",
-					artist:"Bensound",
+					artist:"aorysst",
 					mp3:"files/bensound-sunny.mp3",
-					duration:"2.20"
+					duration:""
 				}
 			];
 
@@ -233,7 +233,7 @@ $(document).ready(function()
 					var item = items[x];
 					var dur = playlist[x].duration;
 					var durationDiv = document.createElement('div');
-					durationDiv.className = "song_duration";
+					durationDiv.className = "fas fa-external-link-alt pos";
 					durationDiv.append(dur);
 					item.append(durationDiv);
 				}

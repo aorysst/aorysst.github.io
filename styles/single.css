@@ -812,7 +812,7 @@ section
 	font-family: 'FontAwesome';
 	font-size: 20px;
 	color: #FFFFFF;
-	content: '\f04b';
+	/* content: '\f04b'; */
 }
 .jp-state-playing .jp-play::after
 {
