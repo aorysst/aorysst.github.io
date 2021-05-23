@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-	<title>aorysst | home</title>
+	<title>aorysst</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Mixtape template project">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="images/fav2.png"/>
+	<link rel="icon" type="image/png" href="images/fav2.png" />
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
 	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -15,92 +15,50 @@
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
-	<link href="css/all.css" rel="stylesheet"> <!--load all styles -->
+
+	<!-- More CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/novi.css">
+	<link rel="stylesheet" type="text/css" href="styles/all.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="styles/accordion.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+
 
 </head>
-<!-- <script src="//code.jivosite.com/widget/GrCiXrXnlf" async></script> -->
-<!-- Chatra {literal} -->
-<!-- <script>
-    (function(d, w, c) {
-        w.ChatraID = 'nmmTGS6BiNNic8MRf';
-        var s = d.createElement('script');
-        w[c] = w[c] || function() {
-            (w[c].q = w[c].q || []).push(arguments);
-        };
-        s.async = true;
-        s.src = 'https://call.chatra.io/chatra.js';
-        if (d.head) d.head.appendChild(s);
-    })(document, window, 'Chatra');
-</script> -->
-<!-- /Chatra {/literal} -->
-<!--Start of Tawk.to Script-->
-<!-- <script type="text/javascript">
-	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-	(function(){
-	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-	s1.async=true;
-	s1.src='https://embed.tawk.to/608804465eb20e09cf370a96/1f49l1d9i';
-	s1.charset='UTF-8';
-	s1.setAttribute('crossorigin','*');
-	s0.parentNode.insertBefore(s1,s0);
-	})();
-	</script> -->
-	<!--End of Tawk.to Script-->
+
 <body>
+
 	<div class="super_container">
 
 		<!-- Header -->
 		<header class="header">
 			<div class="header_content d-flex flex-row align-items-center justify-content-center">
-				<div class="logo"><a href="#">aorysst</a></div>
+				<div class="logo"><a href="#home">aorysst</a></div>
 				<div class="log_reg">
 					<ul class="d-flex flex-row align-items-start justify-content-start">
-						<li><a href="#">Srpski</a></li>
+						<li><a href="https://www.facebook.com/aorysst/" target="_blank"><i
+									class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.instagram.com/aorysst/" target="_blank"><i
+									class="fab fa-instagram"></i></a></li>
+						<li><a href="https://dribbble.com/aorysst/" target="_blank"><i class="fab fa-dribbble"></i></a>
+						</li>
 					</ul>
 				</div>
-				<nav class="main_nav">
+				<!-- <nav class="main_nav">
 					<ul class="d-flex flex-row align-items-start justify-content-start">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
-				</nav>
-				<div class="hamburger ml-auto">
-					<div class="d-flex flex-column align-items-end justify-content-between">
-						<div></div>
-						<div></div>
-						<div></div>
-					</div>
-				</div>
+				</nav> -->
 			</div>
 		</header>
 
-		<!-- Menu -->
-
-		<div class="menu">
-			<div>
-				<div class="menu_overlay"></div>
-				<div class="menu_container d-flex flex-column align-items-start justify-content-center">
-					<div class="menu_log_reg">
-						<ul class="d-flex flex-row align-items-start justify-content-start">
-							<li><a href="#">Srpski</a></li>
-						</ul>
-					</div>
-					<nav class="menu_nav">
-						<ul class="d-flex flex-column align-items-start justify-content-start">
-						<li class="active"><a class="ra" href="index.html">Home</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
 
 		<!-- Home -->
 
-		<div class="home">
+		<div id="home" class="home">
 			<div class="home_slider_container">
 
 				<!-- Home Slider -->
@@ -108,68 +66,34 @@
 
 					<!-- Slide -->
 					<div class="owl-item">
-						<div class="background_image" style="background-image:url(images/index.jpg)"></div>
+						<div class="background_image home-bg" style="background-image:url(images/index.jpg)"></div>
 						<div class="home_container">
 							<div
 								class="home_container_inner d-flex flex-column align-items-center justify-content-center">
 								<div class="home_content text-center">
-									<div class="home_subtitle">New single release</div>
-									<div class="home_title">
-										<h1>Love is all around</h1>
+									<div class="home_subtitle">Crafting through the night to bring wise ideas to light.
 									</div>
-									<div class="home_link"><a href="#">Listen on Soundcloud</a></div>
+									<div class="home_title">
+										<h1>Digital Art & Design</h1>
+									</div>
+									<div class="home_link"><a href="#about">See More</a></div>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<!-- Slide -->
-					<!-- <div class="owl-item">
-						<div class="background_image" style="background-image:url(images/index.jpg)"></div>
-						<div class="home_container">
-							<div
-								class="home_container_inner d-flex flex-column align-items-center justify-content-center">
-								<div class="home_content text-center">
-									<div class="home_subtitle">New single release</div>
-									<div class="home_title">
-										<h1>Love is all around</h1>
-									</div>
-									<div class="home_link"><a href="#">Listen on Soundcloud</a></div>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
-					<!-- Slide -->
-					<!-- <div class="owl-item">
-						<div class="background_image" style="background-image:url(images/index.jpg)"></div>
-						<div class="home_container">
-							<div
-								class="home_container_inner d-flex flex-column align-items-center justify-content-center">
-								<div class="home_content text-center">
-									<div class="home_subtitle">New single release</div>
-									<div class="home_title">
-										<h1>Love is all around</h1>
-									</div>
-									<div class="home_link"><a href="#">Listen on Soundcloud</a></div>
-								</div>
-							</div>
-						</div>
-					</div> -->
-
 				</div>
 			</div>
 		</div>
 
-		<!-- Featured Album -->
-
-		<div class="featured_album">
-			<div class="background_image featured_background" style="background-image:url(images/featured.png)"></div>
+		<!-- About -->
+		<div id="about" class="featured_album about-me">
+			<!-- <div class="background_image featured_background" style="background-image:url(images/featured.png)"></div> -->
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 offset-lg-6">
 						<div class="section_title_container">
-							<div class="section_subtitle">About Me</div>
+							<div class="section_subtitle">About</div>
 							<div class="section_title">
 								<h1>Who is aorysst</h1>
 							</div>
@@ -195,74 +119,62 @@
 								<div
 									class="featured_album_title_bar d-flex flex-row align-items-center justify-content-start">
 									<div class="featured_album_title_container">
-										<div class="featured_album_artist">Aleksandar Pavlovic</div>
+										<div class="featured_album_artist">Aleksandar P.</div>
 										<div class="featured_album_title">Digital Artist & Designer</div>
 									</div>
-									<div class="featured_album_link ml-auto"><a></a></div>
+									<div class="featured_album_link ml-auto aorysst-img"><a><img
+												src="images/aorysst.jpg"> </a></div>
 								</div>
-								<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
-									<div class="jp-type-playlist">
-										<div class="jp-playlist">
-											<ul>
-												<li>
-													<a class="asni"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-													<a class="asn" target="_blank" href="#">Facebook</a>
-													<a class="asnb" target="_blank" href="#">Follow</a>
-												</li>
-												<li>
-													<a class="asni"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-													<a class="asn" target="_blank" href="#">Instagram</a>
-													<a class="asnb" target="_blank" href="#">Follow</a>
-												</li>
-												<li>
-													<a class="asni"><i class="fab fa-behance" aria-hidden="true"></i></a>
-													<a class="asn" target="_blank" href="#">Behance</a>
-													<a class="asnb" target="_blank" href="#">Follow</a>
-												</li>
-												<li>
-													<a class="asni"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
-													<a class="asn" target="_blank" href="#">Dribbble</a>
-													<a class="asnb" target="_blank" href="#">Follow</a>
-												</li>
-												<li>
-													<a class="asni"><i class="fab fa-deviantart" aria-hidden="true"></i></a>
-													<a class="asn" target="_blank" href="#">DeviantArt</a>
-													<a class="asnb" target="_blank" href="#">Watch</a>
-												</li>
-											</ul>
-										</div>
-										<div
-											class="player_details d-flex flex-row align-items-center justify-content-start">
-											<div class="jp-details">
-												<div></div>
-												<div class="download-resume" aria-label="title">Check My Resume</div>
+								<div class="about-me-text">
+									<p>I am a problem solver, an art enthusiast, and a designer who is performing at the
+										junction of design and crafting meaningful ideas.</p>
+									<div class="swiper-container mySwiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<h3 class="swiper-title">Following my passion</h3>
+												<p class="swiper-paragraph">Ever since I could remember, I have wanted
+													to create. I brought to
+													life my most
+													challenging insecurities, passions, and most curious thoughts about
+													the world.
+													Today, I am still wondering about all the facets this universe has
+													and
+													continually finding new ways to understand who I am and what I am
+													doing here.
+													These thoughts influence my crafts directly and help me find myself.
+													Constantly
+													pondering, searching and creating. </p>
 											</div>
-											<div class="jp-controls-holder ml-auto">
-												<button class="dw-res" tabindex="0">DOWNLOAD &nbsp;<i class="fas fa-download"></i></button>
+											<div class="swiper-slide">
+												<h3 class="swiper-title">Why design</h3>
+												<p class="swiper-paragraph">As technology progresses things are getting
+													more and more complex. So, I have a special opportunity to make
+													these complex processes simple, delightful and joy to use every day.
+													Design allows us to differentiate ourselves by showing attention and
+													care about others. Everybody values design either consciously or
+													unconsciously. I love creating thoughtful and meaningful experiences
+													and make people happy by making things simple.</p>
 											</div>
 										</div>
-									
+										<div class="swiper-pagination"></div>
 									</div>
 								</div>
-
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
 
-		<!-- Shows -->
-
-		<div class="shows">
+		<!-- Process -->
+		<div class="shows creative-process">
 			<div class="container">
-				<div class="row" style="z-index:10;">
+				<div class="row creative-process-title" style="z-index:10;">
 					<div class="col">
 						<div class="section_title_container">
-							<div class="section_subtitle">Services</div>
+							<div class="section_subtitle">Process</div>
 							<div class="section_title">
-								<h1>How can I help</h1>
+								<h1>How I work</h1>
 							</div>
 						</div>
 					</div>
@@ -274,96 +186,55 @@
 						<div class="shows_list_container">
 							<ul class="shows_list">
 
-								<!-- Show -->
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div>
-										<div class="show_date">18/07</div>
-									</div>
-									<div
-										class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-										<div class="show_name"><a href="#">Website Design</a></div>
-										<div class="show_location">Cluj, Romania</div>
-									</div>
-									<div class="ml-auto">
-										<div class="show_shop trans_200"><a href="#">Buy Tickets</a></div>
-									</div>
-								</li>
+								<div class="accordion js-accordion">
+									<div class="accordion__item js-accordion-item active">
+										<div class="accordion-header js-accordion-header">Strategy ➝ Ask first</div>
+										<div class="accordion-body js-accordion-body">
+											<div class="accordion-body__contents">
+												Before jumping into creating I always make sure that we’re asking the
+												right questions and trying to accomplish the right challenges. This
+												stage includes research, analyses, consulting and exploring possible
+												solutions.
+											</div>
+										</div><!-- end of accordion body -->
+									</div><!-- end of accordion item -->
 
-								<!-- Show -->
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div>
-										<div class="show_date">20/07</div>
-									</div>
-									<div
-										class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-										<div class="show_name"><a href="#">Ultra Music Festival</a></div>
-										<div class="show_location">Miami, USA</div>
-									</div>
-									<div class="ml-auto">
-										<div class="show_shop trans_200"><a href="#">Buy Tickets</a></div>
-									</div>
-								</li>
+									<div class="accordion__item js-accordion-item">
+										<div class="accordion-header js-accordion-header">Design ➝ Problem solving</div>
+										<div class="accordion-body js-accordion-body">
+											<div class="accordion-body__contents">
+												Since I’m a designer who can code too, I can easily work in close
+												collaboration with developers up until the finish line and beyond. In
+												case of web projects I also do coding myself.
+											</div>
+										</div><!-- end of accordion body -->
+									</div><!-- end of accordion item -->
 
-								<!-- Show -->
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div>
-										<div class="show_date">03/08</div>
-									</div>
-									<div
-										class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-										<div class="show_name"><a href="#">Untold Festival</a></div>
-										<div class="show_location">Cluj, Romania</div>
-									</div>
-									<div class="ml-auto">
-										<div class="show_shop trans_200"><a href="#">Buy Tickets</a></div>
-									</div>
-								</li>
+									<div class="accordion__item js-accordion-item">
+										<div class="accordion-header js-accordion-header">Development ➝ Bringing designs
+											to life</div>
+										<div class="accordion-body js-accordion-body">
+											<div class="accordion-body__contents">
+												At the end of this phase you’ll have a pixel perfect design for your app
+												or website. During the transition from wireframes into the final design
+												I create prototypes simulating final end results before development.
+											</div>
+										</div><!-- end of accordion body -->
+									</div><!-- end of accordion item -->
 
-								<!-- Show -->
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div>
-										<div class="show_date">11/08</div>
-									</div>
-									<div
-										class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-										<div class="show_name"><a href="#">Sun Kissed Festival</a></div>
-										<div class="show_location">Paris, France</div>
-									</div>
-									<div class="ml-auto">
-										<div class="show_shop trans_200"><a href="#">Buy Tickets</a></div>
-									</div>
-								</li>
+									<div class="accordion__item js-accordion-item">
+										<div class="accordion-header js-accordion-header">Quality assurance ➝
+											Transparent process</div>
+										<div class="accordion-body js-accordion-body">
+											<div class="accordion-body__contents">
+												Complete overview of my design process through regular meetings. After
+												the initial design versions I’m happy to do user testing with your
+												customers to ensure the best possible solutions for their needs.
+											</div>
 
-								<!-- Show -->
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div>
-										<div class="show_date">18/08</div>
-									</div>
-									<div
-										class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-										<div class="show_name"><a href="#">Spanish Festival</a></div>
-										<div class="show_location">Madrid, Spain</div>
-									</div>
-									<div class="ml-auto">
-										<div class="show_shop trans_200"><a href="#">Buy Tickets</a></div>
-									</div>
-								</li>
-
-								<!-- Show -->
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div>
-										<div class="show_date">25/08</div>
-									</div>
-									<div
-										class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
-										<div class="show_name"><a href="#">Vikings Festival</a></div>
-										<div class="show_location">Oslo, Norway</div>
-									</div>
-									<div class="ml-auto">
-										<div class="show_shop trans_200"><a href="#">Buy Tickets</a></div>
-									</div>
-								</li>
-
+										</div><!-- end of accordion body -->
+									</div><!-- end of accordion item -->
+									
 							</ul>
 						</div>
 					</div>
@@ -380,115 +251,321 @@
 			</div>
 		</div>
 
-		<!-- Artist -->
+		<!-- Projects -->
 
-		<div class="artist">
-			<div class="container">
-				<div class="row">
-
-					<!-- Artist Image -->
-					<div class="col-lg-4 artist_image_col">
-						<div class="artist_image">
-							<img src="images/artist.png" alt="">
-						</div>
-					</div>
-
-					<!-- Artist Content -->
-					<div class="col-lg-7 offset-lg-1">
-						<div class="artist_content">
-							<div class="section_title_container">
-								<div class="section_subtitle">Events</div>
-								<div class="section_title">
-									<h1>The Artist</h1>
+		<!-- Kockica -->
+		<div id="projects" class="extra radovi">
+			<div class="extra_container">
+				<div class="background_image contact-bg" style="background-image:url(images/kockica-bg.png)"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="extra_content d-flex flex-column align-items-start justify-content-center">
+								<div class="extra_title">
+									<h1>Kockica Design</h1>
 								</div>
-							</div>
-							<div class="artist_text">
-								<p> In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui fermentum
-									eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in libero
-									pretium interdum. Nullam volutpat dui sem, ac congue purus luctus nec. Curabitur
-									luctus luctus erat, sit amet facilisis quam congue quis. Quisque ornare luctus erat
-									id dignissim. Nullam ac nunc quis ex porttitor luctus.</p>
-								<p>Integer sed facilisis eros. In iaculis rhoncus velit in malesuada. In hac habitasse
-									platea dictumst. Fusce erat ex, consectetur sit amet ornare suscipit, porta et erat.
-									Donec nec nisi in nibh commodo laoreet. Mauris dapibus justo ut feugiat malesuada.
-									Fusce ultricies ante tortor, non vestibulum est feugiat ut.</p>
-							</div>
-							<div class="artist_sig"><img src="images/sig.png" alt=""></div>
-							<div
-								class="single_player_container d-flex flex-column align-items-start justify-content-center">
-								<div class="single_player">
-									<div id="jplayer_2" class="jp-jplayer"></div>
-									<div id="jp_container_2" class="jp-audio" role="application"
-										aria-label="media player">
-										<div class="jp-type-single">
-											<div
-												class="player_details d-flex flex-row align-items-center justify-content-start">
-												<div class="jp-details">
-													<div class="jp-title" aria-label="title">&nbsp;</div>
-												</div>
-												<div class="jp-controls-holder ml-auto">
-													<button class="jp-play" tabindex="0"></button>
-												</div>
-											</div>
-											<div class="player_controls">
-												<div
-													class="jp-gui jp-interface d-flex flex-row align-items-center justify-content-start">
-													<div
-														class="jp-controls-holder time_controls d-flex flex-row align-items-center justify-content-start">
-														<div>
-															<div class="jp-current-time" role="timer" aria-label="time">
-																&nbsp;</div>
-														</div>
-														<div class="jp-progress">
-															<div class="jp-seek-bar">
-																<div class="jp-play-bar"></div>
-															</div>
-														</div>
-														<div>
-															<div class="jp-duration ml-auto" role="timer"
-																aria-label="duration">&nbsp;</div>
-														</div>
-													</div>
-													<div
-														class="jp-volume-controls d-flex flex-row align-items-center justify-content-start ml-auto">
-														<button class="jp-mute" tabindex="0"></button>
-														<div class="jp-volume-bar">
-															<div class="jp-volume-bar-value"></div>
-														</div>
-													</div>
-												</div>
-											</div>
-										
-										</div>
-									</div>
-
+								<div class="extra_text">
+									<h4>Creative Couple
+										<hr>
+									</h4>
+									<p>We are no company or agency and we have no intention to present ourselves in a
+										cold corporate light. We create with love, and we approach people sincerely and
+										friendly. Kockica is our creative workshop where we bring great ideas to life
+										through art and design.</p>
+									<p><a class="tag">Branding</a><a class="tag">UX/UI</a><a
+											class="tag">Storytelling</a><a class="tag">Web Design</a><a
+											class="tag">Coding</a><a class="tag">Video Production</a></p>
 								</div>
+								<div class="extra_button"><a href="https://kockicadesign.github.io/" target="_blank"> Visit
+										website </a></div>
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
 
-		<!-- Extra -->
+		<!-- Tektrip -->
+		<div class="extra radovi ">
+			<div class="extra_container">
+				<div class="background_image tektrip-bg" style="background-image:url(images/tektrip-bg.png)"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="extra_content d-flex flex-column align-items-start justify-content-center">
+								<div class="extra_title">
+									<h1>Tektrip Computers</h1>
+								</div>
+								<div class="extra_text">
+									<h4>Tech & Design
+										<hr>
+									</h4>
+									<p>We are no company or agency and we have no intention to present ourselves in a
+										cold corporate light. We create with love, and we approach people sincerely and
+										friendly. Kockica is our creative workshop where we bring great ideas to life
+										through art and design.</p>
+									<p><a class="tag">Branding</a><a class="tag">UX/UI</a><a
+											class="tag">Storytelling</a><a class="tag">Web Design</a><a
+											class="tag">Coding</a><a class="tag">Video Production</a></p>
+								</div>
+								<div class="extra_button"><a href="https://tektrip-zz.github.io/" target="_blank"> Visit
+										website </a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- League of Legends -->
+		<div class="extra radovi ">
+			<div class="extra_container ">
+				<div class="background_image lol-bg " style="background-image:url(images/lol-bg.png)"></div>
+				<div class="container ">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="extra_content d-flex flex-column align-items-start justify-content-center">
+								<div class="extra_title">
+									<h1>League of Legends</h1>
+								</div>
+								<div class="extra_text">
+									<h4>Tees & Hoodies
+										<hr>
+									</h4>
+									<p>Check out my League of Legends tees and hoodies collection. I've created these
+										for an indie merch store Smite Shop. Most of them were made in Photoshop &
+										Illustrator. If you like League of Legends too, add Le Miaou, so we can play
+										together.
+									</p>
+									<p><a class="tag">Illustration</a><a class="tag">Print Design</a><a
+											class="tag">Merchandise</a><a class="tag">POD</a><a
+											class="tag">Marketing</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Swiper -->
+				<div class="swiper-container mySwiper2 lol-swiper-divider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-01.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-02.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-03.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-04.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-05.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-06.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-07.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-08.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-09.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-10.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-11.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-12.jpg"></a></div>
+						<div class="swiper-slide swp"><a class="lol-img"><img
+									src="images/league-of-legends/lol-13.jpg"></a></div>
+					</div>
+					<div class="swiper-pagination2 swpp2"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Creations -->
+		<div class="extra radovi ">
+			<div class="extra_container ">
+				<div class="background_image lol-bg " style="background-image:url(images/creations-bg.png)"></div>
+				<div class="container ">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="extra_content d-flex flex-column align-items-start justify-content-center">
+								<div class="extra_title">
+									<h1>More Creations</h1>
+								</div>
+								<div class="extra_text">
+									<h4>Crafts & Compositions
+										<hr>
+									</h4>
+									<p>Take a look at the things I've been working on through time. Some were printed on
+										tees, hoodies and hats, some were for freelance clients, and some for myself. As
+										you might have noticed already, I like to keep myself busy.
+									</p>
+									<p><a class="tag">Graphic Design</a><a class="tag">Illustration</a><a
+											class="tag">Drawing</a><a class="tag">Cartoons</a><a class="tag">Vectors</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Swiper -->
+				<div class="swiper-container mySwiper3 lol-swiper-divider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-01.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-02.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-03.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-04.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-05.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-06.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-07.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-08.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-09.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-10.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-11.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-12.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-13.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-14.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-15.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-16.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-17.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-18.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-19.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-20.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-21.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-22.png"></a></div>
+						<div class="swiper-slide swp-mc"><a class="mc-img"><img
+									src="images/more-creations/mc-23.png"></a></div>
+					</div>
+					<div class="swiper-pagination2 swpp2"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Principles -->
+		<div id="contact" class="elements principles">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="icon_boxes">
+							<div class="row icon_boxes_row">
+
+								<!-- Icon Box -->
+								<div class="col-lg-6 principle-box">
+									<div class="icon_box">
+										<div
+											class="ib_title_container d-flex flex-row align-items-center justify-content-start">
+											<div class="ib_title">UX is the sum of all things.
+												<hr>
+											</div>
+										</div>
+										<div class="ib_text">
+											<p>
+												There’s no style over substance here. I bring together form and the
+												function to create something that looks good and performs brilliantly.
+												Simple.</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Icon Box -->
+								<div class="col-lg-6 ">
+									<div class="icon_box principle-box">
+										<div
+											class="ib_title_container d-flex flex-row align-items-center justify-content-start">
+											<div class="ib_title">Perfection doesn’t do a 9-­5.
+												<hr>
+											</div>
+										</div>
+										<div class="ib_text">
+											<p>
+												And neither do I. I’m not bound to any time zones or tied to a desk. The
+												project dictates where I need to be and who I need to collaborate with.
+												Essentially, I always go the extra mile.</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Icon Box -->
+								<div class="col-lg-6 principle-box">
+									<div class="icon_box">
+										<div
+											class="ib_title_container d-flex flex-row align-items-center justify-content-start">
+											<div class="ib_title">Clients. Curated.
+												<hr>
+											</div>
+										</div>
+										<div class="ib_text">
+											<p>
+												I take on a limited number of projects at one time. This quality control
+												means I can give each one exactly what it needs – focus and time.</p>
+										</div>
+									</div>
+								</div>
+
+								<!-- Icon Box -->
+								<div class="col-lg-6 principle-box">
+									<div class="icon_box">
+										<div
+											class="ib_title_container d-flex flex-row align-items-center justify-content-start">
+											<div class="ib_title">Clean ­– In thinking, in style.
+												<hr>
+											</div>
+										</div>
+										<div class="ib_text">
+											<p>
+												Simple, minimal and effective. This is my mantra and method. Clean code,
+												fuss-free interfaces and expert execution, design as it should be.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contact -->
 
 		<div class="extra">
 			<div class="extra_container">
-				<div class="background_image" style="background-image:url(images/extra.jpg)"></div>
+				<div class="background_image contact-bg" style="background-image:url(images/extra.jpg)"></div>
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-9">
+						<div class="col-lg-12">
 							<div class="extra_content d-flex flex-column align-items-start justify-content-center">
 								<div class="extra_title">
-									<h1>Get your tickets now!</h1>
+									<h1>Ready to make something special?</h1>
 								</div>
 								<div class="extra_text">
-									<p>In vitae nisi aliquam, scelerisque leo a, volutpat sem. Vivamus rutrum dui
-										fermentum eros hendrerit, id lobortis leo volutpat. Maecenas sollicitudin est in
-										libero pretium interdum</p>
+									<p>Whether you’re just beginning your minimum viable product, or need help iterating
+										on an established application, website, or something else, let’s team up.
+										I’d love to hear about your thing. Drop me an email to get started or <a
+											class="telegram" href="https://telegram.me/aorysst" target="_blank">telegram
+											me</a> to make things faster!</p>
 								</div>
-								<div class="extra_button"><a href="#">Send me a message</a></div>
+								<div class="extra_button"><a href="mailto:aorysst@gmail.com" target="_blank"> Email Me
+									</a></div>
 							</div>
 						</div>
 					</div>
@@ -500,81 +577,15 @@
 
 		<footer class="footer">
 			<div class="copyright_bar">
-
 				<span>
-					Copyright <i class="fa fa-copyright" aria-hidden="true"></i>
-					<script>document.write(new Date().getFullYear());</script> ▪ Created with <i class="fa fa-heart"
-						aria-hidden="true"></i> by <a class="cba" href="#">aorysst</a>
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					<i class="fas fa-copyright"></i>
+					<script>document.write(new Date().getFullYear());</script> aorysst.com
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 				</span>
-				<span>
-					<a class="social-icon" target="_blank" href="https://www.facebook.com/aorysst/"><i
-							class="fab fa-facebook-f" aria-hidden="true"></i></a>
-					<a class="social-icon" target="_blank" href="https://www.instagram.com/aorysst/"><i
-							class="fab fa-instagram" aria-hidden="true"></i></a>
-					<a class="social-icon" target="_blank" href="https://www.behance.net/aorysst"><i
-							class="fab fa-behance" aria-hidden="true"></i></a>
-					<a class="social-icon" target="_blank" href="https://dribbble.com/aorysst/about"><i
-							class="fab fa-dribbble" aria-hidden="true"></i></a>
-					<a class="social-icon" target="_blank" href="https://www.deviantart.com/aorysst"><i
-							class="fab fa-deviantart" aria-hidden="true"></i></a>
-					<!-- <a class="social-icon" target="_blank" href="mailto:aorysst@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a> -->
-					<!-- 
-						<a class="social-icon" target="_blank" href="https://t.me/aorysst"><i class="fa fa-telegram" aria-hidden="true"></i></a>
-						<a class="social-icon" target="_blank" href="viber://chat/?number=%2B381612684000"><i class="fa fa-whatsapp" aria-hidden="true"></i></a> -->
-					<!-- <a class="social-icon live-chat" target="_blank" href="viber://chat/?number=%2B381612684000">let's chat <i class="fa fa-comment" aria-hidden="true"></i></a> -->
-				</span>
+				<span class="email">aorysst@gmail.com <i class="fas fa-envelope"></i></span>
 			</div>
 		</footer>
-		
-			<!-- <div id="app">
-				<nav>
-					<div class="action">
-						<button class="btn share">A</button>
-						<div class="actions">
-							<a href="#" class="sa">1</a>
-							<a href="#" class="sa">2</a>
-						</div>
-					</div>
-				</nav>
-			</div> -->
-
-			<nav class="menua">
-				<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
-				<label class="menu-open-button" for="menu-open">
-				  <span class="hamburgera hamburger-1"></span>
-				  <span class="hamburgera hamburger-2"></span>
-				  <span class="hamburgera hamburger-3"></span>
-				</label>
-				
-				<a href="#" class="menua-item"> <i class="fa fa-bar-chart"></i> </a>
-				<a href="#" class="menua-item"> <i class="fa fa-plus"></i> </a>
-				<a href="#" class="menua-item"> <i class="fa fa-heart"></i> </a>
-				<a href="#" class="menua-item"> <i class="fa fa-envelope"></i> </a>
-				
-			  </nav>
-			  
-			  
-			  <!-- filters -->
-			  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-				  <defs>
-					<filter id="shadowed-goo">
-						
-						<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-						<feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
-						<feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
-						<feOffset in="shadow" dx="1" dy="1" result="shadow" />
-						<feComposite in2="shadow" in="goo" result="goo" />
-						<feComposite in2="goo" in="SourceGraphic" result="mix" />
-					</filter>
-					<filter id="goo">
-						<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-						<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-						<feComposite in2="goo" in="SourceGraphic" result="mix" />
-					</filter>
-				  </defs>
-			  </svg>
-		
 	</div>
 
 	<script src="js/jquery-3.2.1.min.js"></script>
@@ -592,8 +603,78 @@
 	<script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
 	<script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
 	<script src="js/custom.js"></script>
-<script src="js/main.js"></script>
+	<!-- More JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/elements.js"></script>
+	<script src="js/accordion.js"></script>
 
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			pagination: {
+				el: ".swiper-pagination",
+			},
+		});
+	</script>
+	<script>
+		var swiper = new Swiper(".mySwiper2", {
+			slidesPerView: 2,
+			spaceBetween: 0,
+			loop: true,
+			autoHeight: true,
+			grabCursor: true,
+			pagination: {
+				el: ".swiper-pagination2",
+				clickable: true,
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 2,
+					spaceBetween: 0,
+					//   spaceBetween: 20,
+				},
+				768: {
+					slidesPerView: 4,
+					spaceBetween: 0,
+					//   spaceBetween: 40,
+				},
+				1024: {
+					slidesPerView: 6,
+					spaceBetween: 0,
+					//   spaceBetween: 50,
+				},
+			},
+		});
+	</script>
+	<script>
+		var swiper = new Swiper(".mySwiper3", {
+			slidesPerView: 2,
+			spaceBetween: 0,
+			loop: true,
+			autoHeight: true,
+			grabCursor: true,
+			pagination: {
+				el: ".swiper-pagination2",
+				clickable: true,
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 2,
+					spaceBetween: 0,
+					//   spaceBetween: 20,
+				},
+				768: {
+					slidesPerView: 4,
+					spaceBetween: 0,
+					//   spaceBetween: 40,
+				},
+				1024: {
+					slidesPerView: 6,
+					spaceBetween: 0,
+					//   spaceBetween: 50,
+				},
+			},
+		});
+	</script>
 </body>
 
 </html>

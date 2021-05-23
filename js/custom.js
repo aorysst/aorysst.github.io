@@ -128,46 +128,46 @@ $(document).ready(function()
 
 	function initAlbumPlayer()
 	{
-		if($('#jplayer_1-disable').length)
+		if($('#jplayer_1').length)
 		{
 			// Duration has to be entered manually
 			var playlist = 
 			[
 				{
-					title: "Facebook",
-					artist:"aorysst",
+					title:"Better Days",
+					artist:"Bensound",
 					mp3:"files/bensound-betterdays.mp3",
-					duration:""
+					duration:"2.33"
 				},
 				{
-					title:"2 Instagram",
-					artist:"aorysst",
+					title:"Dubstep",
+					artist:"Bensound",
 					mp3:"files/bensound-dubstep.mp3",
-					duration:""
+					duration:"2.04"
 				},
 				{
-					title:"Behance",
-					artist:"aorysst",
+					title:"Sunny",
+					artist:"Bensound",
 					mp3:"files/bensound-sunny.mp3",
-					duration:""
+					duration:"2.20"
 				},
 				{
-					title:"Dribbble",
-					artist:"aorysst",
+					title:"Better Days",
+					artist:"Bensound",
 					mp3:"files/bensound-betterdays.mp3",
-					duration:""
+					duration:"2.33"
 				},
 				{
-					title:"DeviantArt",
-					artist:"aorysst",
+					title:"Dubstep",
+					artist:"Bensound",
 					mp3:"files/bensound-dubstep.mp3",
-					duration:""
+					duration:"2.04"
 				},
 				{
-					title:"LinkedIn",
-					artist:"aorysst",
+					title:"Sunny",
+					artist:"Bensound",
 					mp3:"files/bensound-sunny.mp3",
-					duration:""
+					duration:"2.20"
 				}
 			];
 
@@ -233,7 +233,7 @@ $(document).ready(function()
 					var item = items[x];
 					var dur = playlist[x].duration;
 					var durationDiv = document.createElement('div');
-					durationDiv.className = "fas fa-external-link-alt pos";
+					durationDiv.className = "song_duration";
 					durationDiv.append(dur);
 					item.append(durationDiv);
 				}
@@ -310,4 +310,13 @@ $(document).ready(function()
 		}	
 	}
 
+});
+$("a[href^='#']").click(function(e) {
+	e.preventDefault();
+	
+	var position = $($(this).attr("href")).offset().top;
+
+	$("body, html").animate({
+		scrollTop: position
+	} /* speed */ );
 });

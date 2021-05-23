@@ -118,7 +118,7 @@
 	}
 	.log_reg
 	{
-		right: 120px;
+		right: 52px;
 	}
 	.hamburger
 	{
@@ -142,15 +142,9 @@
 		padding-left: 35px;
 		padding-right: 35px;
 	}
-	.player_details
-	{
-		padding-left: 35px;
-		padding-right: 35px;
-	}
 	.jp-playlist li
 	{
 		padding-left: 35px;
-		padding-right: 35px;
 	}
 	.jp-playlist li > div
 	{
@@ -302,6 +296,9 @@
 
 @media only screen and (max-width: 575px)
 {
+	.elements {
+		margin: 0 15px;
+	}
 	h1
 	{
 		font-size: 36px;
@@ -322,7 +319,8 @@
 	}
 	.log_reg
 	{
-		display: none;
+		/* display: none; */
+		right: 15px;
 	}
 	.menu_log_reg
 	{
@@ -370,8 +368,8 @@
 	}
 	.jp-type-single .player_details
 	{
-		padding-left: 35px;
-		padding-right: 35px;
+		padding-left: 20px;
+		padding-right: 22px;
 	}
 	.jp-type-single .player_controls .jp-interface
 	{

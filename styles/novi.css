@@ -1,0 +1,249 @@
+.email {
+  float: right;
+}
+
+.contact_buttons {
+  display: flex;
+  flex-direction: row;
+}
+.extra_button {
+  margin-right: 30px;
+}
+.ei {
+  font-size: 20px;
+}
+.ti {
+  font-size: 20px;
+}
+
+.telegram {
+  text-decoration: none !important;
+  /* background-color: #de4f32; */
+  cursor: pointer;
+  position: relative;
+  padding: 0 0.5em;
+  background-color: #de4f32;
+}
+
+.telegram:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35%;
+  background-color: #de4f32;
+  z-index: -10;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+}
+.telegram:hover {
+  cursor: pointer;
+  background-color: #b83b22;
+
+}
+
+.telegram:hover:after {
+  background-color: #de4f32;
+}
+
+.radovi {
+  margin-bottom: 50px;
+  /* margin-top: 50px; */
+}
+.rad {
+  height: 648px;
+}
+.about-me-text {
+  background-color: rgb(36, 36, 36);
+}
+
+.about-me-text p {
+  margin: 0 55px;
+  padding: 30px 0;
+}
+
+.whydesign {
+  /* margin-top: 50px; */
+}
+.about-me {
+  /* background-color: #171717; */
+  background-image: url('../images/binding_dark.png');
+  background-repeat: repeat;
+  margin-top: 55px;
+}
+.swiper-container {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  text-align: left;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-title {
+  text-align: left;
+  width: 100%;
+  margin: 0 55px;
+  padding-top: 10px;
+  padding-left: 55px;
+}
+.swiper-paragraph {
+  padding-bottom: 50px !important;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-container .swiper-slide {
+  height: 300px;
+  line-height: 300px;
+}
+/* 
+.swiper-container .swiper-slide:nth-child(2n) {
+  height: 500px;
+  line-height: 500px;
+} */
+.creative-process {
+  background-color: #242424;
+  margin-bottom: 50px;
+  background-image: url('../images/debut_dark.png');
+  background-repeat: repeat;
+}
+.principles {
+  background-color: #0f0f0f;
+}
+
+.principle-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.aorysst-img {
+  border: solid 2px #d3d3d3ca;
+}
+.aorysst-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.swiper-pagination {
+  bottom: 20px !important;
+  text-align: left !important;
+  padding-left: 50px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #de4f32 !important;
+}
+/* .creative-process-title {
+      margin-bottom: 80px;
+  } */
+
+hr {
+  border-color: #de4f32;
+}
+.home-bg {
+  filter: opacity(50%);
+  filter: blur(5px);
+  filter: brightness(50%);
+}
+.contact-bg {
+  filter: brightness(30%);
+}
+.tektrip-bg {
+  filter: brightness(56%);
+}
+.rad-bg {
+  filter: brightness(10%);
+}
+.tag {
+  /* border: 1px solid rgba(255, 255, 255, 0.835); */
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.589) !important;
+}
+
+.tag:hover {
+  background-color: #000;
+}
+.mySwiper2 {
+  background-color: #242424;
+}
+.mySwiper3 {
+  background-color: #242424;
+}
+
+.swp {
+  /* width: 300px !important; */
+  /* height: 300px !important; */
+  /* margin-right: 0 !important; */
+  background-color: #4b4b4b;
+
+}
+.swpp2 {
+  background-color: #242424;
+  bottom: 0 !important;
+  text-align: center !important;
+  margin: 5px 0;
+}
+.lol-img {
+  width: 100%;
+}
+.lol-img  img{
+  filter: brightness(70%);
+  width: 100%;
+  height: auto;
+transition: ease-in-out .2s;
+}
+.lol-img img:hover{
+  filter: brightness(100%);
+  width: 100%;
+  height: auto;
+transition: ease-in-out .2s;
+}
+.mc-img {
+  width: 100%;
+}
+.mc-img  img{
+  filter: brightness(70%);
+  width: 100%;
+  height: auto;
+transition: ease-in-out .2s;
+}
+.mc-img img:hover{
+  filter: brightness(100%);
+  width: 100%;
+  height: auto;
+transition: ease-in-out .2s;
+}
+.swp-mc {
+  filter: grayscale(1);
+}
+.swp-mc:hover {
+  filter: grayscale(0);
+}
+.lol-bg {
+  filter: brightness(80%);
+}
+.lol-swiper-divider {
+  /* border-top: 20px solid #000; */
+}
