@@ -296,6 +296,12 @@
 
 @media only screen and (max-width: 575px)
 {
+	.about-me {
+		margin-top: 15px !important;
+	}
+	.radovi {
+		margin-bottom: 15px !important;
+	}
 	.elements {
 		margin: 0 15px;
 	}
@@ -419,7 +425,9 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+	.process-span {
+		display: none !important;
+	}
 }
 
 /************

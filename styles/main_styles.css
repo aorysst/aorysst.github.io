@@ -361,7 +361,7 @@ section
 }
 .log_reg ul li a:hover
 {
-	color: #de4f33;
+	color: #FE8357;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -517,7 +517,7 @@ section
 	padding-top: 8px;
 	padding-bottom: 8px;
 	margin-bottom: 5px;
-	border-bottom: solid 2px #de4f32;
+	border-bottom: solid 2px #FE8357;
 }
 .menu_log_reg a
 {
@@ -526,7 +526,7 @@ section
 }
 .menu_log_reg a:hover
 {
-	color: #de4f32;
+	color: #FE8357;
 }
 .menu_log_reg ul li
 {
@@ -549,7 +549,7 @@ section
 	padding-right: 40px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	border-bottom: solid 5px #de4f32;
+	border-bottom: solid 5px #FE8357;
 }
 .menu_nav ul li
 {
@@ -589,7 +589,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #de4f32;
+	color: #FE8357;
 }
 
 /*********************************
@@ -603,6 +603,7 @@ section
 	padding-left: 51px;
 	padding-right: 52px;
 }
+
 .home_slider_container
 {
 	width: 100%;
@@ -639,6 +640,7 @@ section
 {
 	background: #000000;
 }
+
 .home_container
 {
 	width: 100%;
@@ -659,6 +661,7 @@ section
 {
 	font-size: 18px;
 	color: #FFFFFF;
+	margin: 0 20px;
 }
 .home_title
 {
@@ -666,7 +669,7 @@ section
 }
 .home_title h1
 {
-	font-size: 82px;
+	font-size: 72px;
 }
 .home_link
 {
@@ -688,7 +691,7 @@ section
 	bottom: -4px;
 	width: 100%;
 	height: 22px;
-	background: #de4f33;
+	background: #FE8357;
 	content: '';
 	z-index: -1;
 	-webkit-transition: all 400ms ease;
@@ -699,7 +702,7 @@ section
 }
 .home_link a:hover::before
 {
-	background: #de4f33;
+	background: #FE8357;
 }
 
 /*********************************
@@ -740,7 +743,7 @@ section
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background: #de4f32;
+	background: #FE8357;
 	z-index: 1;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 1000ms ease;
@@ -970,7 +973,7 @@ section
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
-	background: #de4f32;
+	background: #FE8357;
 	border: none;
 	cursor: pointer;
 	text-align: center;
@@ -1154,7 +1157,7 @@ section
 {
 	width: 78px;
 	height: 60px;
-	background: #de4f32;
+	background: #FE8357;
 	line-height: 60px;
 	text-align: center;
 	margin-right: 23px;
@@ -1172,7 +1175,7 @@ section
 }
 .show_name a:hover
 {
-	color: #de4f32;
+	color: #FE8357;
 }
 .show_location
 {
@@ -1187,7 +1190,7 @@ section
 }
 .show_shop:hover
 {
-	background: #de4f32;
+	background: #FE8357;
 }
 .show_shop a
 {
@@ -1299,12 +1302,12 @@ section
 {
 	width: 141px;
 	height: 46px;
-	background: #de4f32;
+	background: #FE8357;
 	margin-top: 35px;
 }
 .extra_button:hover
 {
-	background: #b83b22;
+	background: rgb(197, 98, 78);
 }
 .extra_button a
 {
@@ -1389,7 +1392,7 @@ section
 	right: 0;
 	width: 139px;
 	height: 50px;
-	background: #de4f32;
+	background: #FE8357;
 	border: none;
 	outline: none;
 	cursor: pointer;
@@ -1459,13 +1462,13 @@ section
 {
 	height: 50px;
 	width: 100%;
-	background: #de4f32;
+	background: #FE8357;
 	padding-left: 44px;
 	cursor: pointer;
 	color: #FFFFFF;
 	font-size: 14px;
 	line-height: 50px;
-	border: solid 2px #de4f32;
+	border: solid 2px #FE8357;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1519,7 +1522,7 @@ section
 .accordion.active::after
 {
 	content: '-';
-	color: #de4f32;
+	color: #FE8357;
 }
 .accordion_panel
 {
@@ -1575,3 +1578,4 @@ section
 	font-size: 36px;
 	line-height: 0.75;
 }
+
