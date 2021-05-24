@@ -185,11 +185,17 @@ hr {
 .tag:hover {
   background-color: #000;
 }
-.mySwiper2 {
-  background-color: #242424;
+.mySwiper1 {
+  background-color: #0f0f0f;
 }
 .mySwiper3 {
-  background-color: #242424;
+  background-color: #0f0f0f;
+}
+.mySwiper2 {
+  background-color: #0f0f0f;
+}
+.mySwiper3 {
+  background-color: #0f0f0f;
 }
 
 .swp {
@@ -200,7 +206,7 @@ hr {
 
 }
 .swpp2 {
-  background-color: #242424;
+  background-color: #0f0f0f;
   bottom: 0 !important;
   text-align: center !important;
   margin: 5px 0;
@@ -247,3 +253,27 @@ transition: ease-in-out .2s;
 .lol-swiper-divider {
   /* border-top: 20px solid #000; */
 }
+.swp-slide-title {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+.swp-slide-title h5 {
+  color: #fff;
+  font-size: 25px;
+}
+.swp-slide-title a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.wp {
+  cursor: pointer;
+}
+.extra_container
+{
+  background-color: #0F0F0F;
+} 
