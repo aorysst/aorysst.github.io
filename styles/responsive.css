@@ -112,6 +112,9 @@
 
 @media only screen and (max-width: 991px)
 {
+	.swiper-pagination {
+		padding-left: 30px !important;
+	}
 	.about-me-text p {
 		margin: 0 35px !important;
 	  }
@@ -302,6 +305,9 @@
 
 @media only screen and (max-width: 575px)
 {
+	.swiper-pagination {
+		padding-left: 20px !important;
+	}
 	.about-me-text p {
 		margin: 0 25px !important;
 	  }
