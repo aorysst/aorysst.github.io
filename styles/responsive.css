@@ -112,6 +112,12 @@
 
 @media only screen and (max-width: 991px)
 {
+	.about-me-text p {
+		margin: 0 35px !important;
+	  }
+	  .swiper-title {
+		  padding-left: 35px !important;
+	  }
 	.main_nav
 	{
 		display: none;
@@ -296,9 +302,16 @@
 
 @media only screen and (max-width: 575px)
 {
+	.about-me-text p {
+		margin: 0 25px !important;
+	  }
+	  .swiper-title {
+		  padding-left: 25px !important;
+	  }
 	.about-me {
 		margin-top: 15px !important;
 	}
+	
 	.radovi {
 		margin-bottom: 15px !important;
 	}
