@@ -17,12 +17,12 @@
 }
 
 .telegram {
-  text-decoration: none !important;
+  text-decoration: underline !important;
   /* background-color: #FE8357; */
   cursor: pointer;
   position: relative;
-  padding: 0 0.5em;
-  background-color: #FE8357;
+  /* padding: 0 0.5em; */
+  /* background-color: #FE8357; */
 }
 
 .telegram:after {
@@ -32,7 +32,7 @@
   left: 0;
   width: 100%;
   height: 35%;
-  background-color: #FE8357;
+  /* background-color: #FE8357; */
   z-index: -10;
   -webkit-transition: all 0.1s linear;
   -moz-transition: all 0.1s linear;
@@ -40,12 +40,12 @@
 }
 .telegram:hover {
   cursor: pointer;
-  background: rgb(197, 98, 78);
+  /* background: rgb(197, 98, 78); */
 }
 
-.telegram:hover:after {
+/* .telegram:hover:after {
   background-color: #FE8357;
-}
+} */
 
 .radovi {
   margin-bottom: 50px;
